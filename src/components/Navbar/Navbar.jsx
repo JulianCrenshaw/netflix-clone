@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.png'
+import search_icon from '../../assets/search_icon.svg'
 
 const Navbar = () => {
   return (
@@ -16,7 +17,9 @@ const Navbar = () => {
           <li>Browse by Languages</li>
         </ul>
       </div>
-      <div className="navbar-right"></div>
+      <div className="navbar-right">
+        <img src={search_icon} alt="" className='icons' />
+      </div>
     </div>
   )
 }
