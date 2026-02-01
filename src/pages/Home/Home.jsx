@@ -17,6 +17,9 @@ const Home = () => {
             modern Istanbul embarks on a quest to save the city from an immoral
             enemy.
           </p>
+          <div className="hero-btns">
+            <button><img src="" alt="" /></button>
+          </div>
         </div>
       </div>
     </div>
