@@ -16,16 +16,17 @@ const Footer = () => {
       </div>
       <ul>
         <li>Audio Description</li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Help Center</li>
+        <li>Gift Cards</li>
+        <li>Media Center</li>
+        <li>Investor Relations</li>
+        <li>Jobs</li>
+        <li>Terms of Use</li>
+        <li>Privacy</li>
+        <li>Legal Notices</li>
+        <li>Cookie Preferences</li>
+        <li>Corporate Information</li>
+        <li>Contact Us</li>
       </ul>
     </div>
   )
