@@ -12,12 +12,13 @@ const Login = () => {
     <div className='login'>
       <img src={logo} className='login-logo' alt="" />
       <div className="login-form">
-        <h1>Sign Up</h1>
+        <h1>{signState}</h1>
         <form>
-          <input type="text" placeholder='Your Name'/>
+          {signState === "Sign Up" ? <input type="text" placeholder='Your Name' /> : <></>}
+          
           <input type="email" placeholder='email'/>
           <input type="password" placeholder='password'/>
-          <button>Sign Up</button>
+          <button>{signState}</button>
           <div className="form-help">
             <div className="remember">
               <input type="checkbox" />
@@ -27,8 +28,10 @@ const Login = () => {
           </div>
         </form>
         <div className="form-switch">
-          <p>New to Netflix? <span>Sign Up Now</span></p>
-          <p>Already Have Account? <span>Sign In Now</span></p>
+          {signState === "Sign In" ? 
+          <p>New to Netflix? <span>Sign Up Now</span></p> 
+          : <p>Already Have Account? <span>Sign In Now</span></p>
+          }
         </div>
       </div>
     </div>
