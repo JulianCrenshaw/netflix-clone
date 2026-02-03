@@ -81,3 +81,9 @@
     color: #737373;
 }
 
+.form-switch span {
+    margin-left: 6px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
