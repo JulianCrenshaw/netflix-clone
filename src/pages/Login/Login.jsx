@@ -18,9 +18,13 @@ const Login = () => {
               <input type="checkbox" />
               <label htmlFor="">Remember Me</label>
             </div>
-            <p>Need Help</p>
+            <p>Need Help?</p>
           </div>
         </form>
+        <div className="form-switch">
+          <p>New to Netflix? <span>Sign Up Now</span></p>
+          <p>Already Have Account? <span>Sign In Now</span></p>
+        </div>
       </div>
     </div>
   )
