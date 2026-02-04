@@ -12,7 +12,7 @@ const navRef = useRef()
 
     useEffect(()=>{
       window.addEventListener('scroll', ()=>{
-        if(window.screenY >= 80){
+        if(window.scrollY >= 80){
           navRef.current.classList.add('nav-dark')
         }
         else {
