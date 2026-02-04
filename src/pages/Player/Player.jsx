@@ -7,7 +7,7 @@ const Player = () => {
     <div className='player'>
       <img src={back_arrow_icon} alt="" />
       <iframe width='90%' height='90%'
-      src='{https:..www.youtube.com/imbed/5Ayf7C7ZTA4}'
+      src='https://www.youtube.com/embed/5Ayf7C7ZTA4'
       title='trailer' frameBorder='0' allowFullScreen></iframe>
       <div className="player-info">
         <p>Published Date</p>
