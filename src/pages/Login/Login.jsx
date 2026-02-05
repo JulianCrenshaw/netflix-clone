@@ -33,7 +33,7 @@ const user_auth = async ()=>{
           type="email" placeholder='email'/>
           <input value={password} onChange={(e)=>{e.target.value}} 
           type="password" placeholder='password'/>
-          <button>{signState}</button>
+          <button onClick={user_auth} type='submit'>{signState}</button>
           <div className="form-help">
             <div className="remember">
               <input type="checkbox" />
