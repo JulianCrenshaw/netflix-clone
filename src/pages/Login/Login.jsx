@@ -10,7 +10,8 @@ const Login = () => {
   const [email, setEmail ] = useState("");
   const [password, setPassword ] = useState("");
 
-const user_auth = async ()=>{
+const user_auth = async (event)=>{
+  event.preventDefault()
   if (signState=== "Sign In") {
     await login (email, password);
   }
@@ -27,11 +28,11 @@ const user_auth = async ()=>{
         <h1>{signState}</h1>
         <form>
           {signState === "Sign Up" ? 
-          <input value={name} onChange={(e)=>{e.target.value}} 
+          <input value={name} onChange={(e)=>{setName(e.target.value)}} 
           type="text" placeholder='Your Name' /> : <></>}
-          <input value={email} onChange={(e)=>{e.target.value}} 
+          <input value={email} onChange={(e)=>{setEmail(e.target.value)}} 
           type="email" placeholder='email'/>
-          <input value={password} onChange={(e)=>{e.target.value}} 
+          <input value={password} onChange={(e)=>{setPassword(e.target.value)}} 
           type="password" placeholder='password'/>
           <button onClick={user_auth} type='submit'>{signState}</button>
           <div className="form-help">
