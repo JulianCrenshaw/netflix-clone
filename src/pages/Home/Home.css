@@ -92,7 +92,7 @@
         margin-bottom: 10px;
     }
 
-    .btn img {
+    .hero-btns .btn img {
         width: 20px;
     }
 
@@ -109,7 +109,7 @@
         width: 15px;
     }
 
-    .btn {
+    .hero-btns .btn {
         padding: 4px 10px;
         gap: 5px;
         font-size: 10px;
