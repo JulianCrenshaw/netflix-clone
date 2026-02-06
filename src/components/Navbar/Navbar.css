@@ -46,7 +46,7 @@
     width: 35px;
 }
 
-.navbar-profiile {
+.navbar-profile {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -56,7 +56,7 @@
 
 .navbar .dropdown {
     position: absolute;
-    top: 60px;
+    top: 40px;
     right: 0;
     width: max-content;
     background: #191919;
@@ -92,6 +92,16 @@
     .navbar img {
         height: 25px;
     }
+
+    .navbar-profile .profile {
+        width: 100%;
+    }
+
+.navbar .dropdown {
+        top: 30px;
+        right: 2px;
+    }
+
 }
 
 @media (max-width: 500px) {
@@ -101,5 +111,13 @@
 
     .navbar-right {
         gap: 10px;
+    }
+    .navbar-profile .profile {
+        width: 100%;
+    }
+
+    .navbar .dropdown {
+        top: 30px;
+        right: 2px;
     }
 }
