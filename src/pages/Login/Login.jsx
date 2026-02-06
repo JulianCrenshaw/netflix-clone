@@ -25,7 +25,7 @@ const user_auth = async (event)=>{
 }
 
   return (
-    loading ? <div className="loginspinner">
+    loading ? <div className="login-spinner">
       <img src={netflix_spinner} alt="" />
     </div> :
     <div className='login'>
